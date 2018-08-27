@@ -14,8 +14,8 @@ _____________________________
 
 D E S C R I P C I O N
 	Hacemos un script nuevo.
- 	En este script lo que vamos ahcer es implementar en un for 
-	el augmento de un numero hasta un maximo, para indicar su potencia.
+ 	En este script lo que vamos hacer es implementar en un for 
+	el augmento de un número hasta un máximo, para indicar su potencia.
 */
 	
 	for ($i = 0; $i <= 29; $i++) {

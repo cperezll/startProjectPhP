@@ -17,6 +17,8 @@ _____________________________
 D E S C R I P C I O N 
 	Multiplicacion de los 20 números naturales y estos mostrarlos por pantalla, mediante el WHILE
 */
+	//Declaración de una cosntnate
+	define ('PI', 3.14);
 
 	$condicionContaje = 1;
 	$numero = 1;

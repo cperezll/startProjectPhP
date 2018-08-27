@@ -1,0 +1,28 @@
+
+div label {
+	width: 100px;
+	height: 10px;
+	float: left;
+}
+
+input.boxInput {
+	width: 100px;
+	height: 20px;
+	border: solid 2px blue;
+}
+
+/*
+label.textInformation{
+	width: 100px !important;
+	height: 10px;
+}*/
+
+.error{
+	border: solid 2px red;
+	background: #ff4433;
+}
+
+.msg {
+	color: white;
+	font-size: 10px;
+}
