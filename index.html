@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario  HTML</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./estilos.css" media="screen" />
+</head>
+<body>
+
+<!--F O R M U L A R I O  I-->
+	<form action="procesar.php" method="post"> 
+		<p>Nombre: <input type="text" name="nombre"></p>
+		<p>Asunto: <input type="text" name="asunto"></p>
+		<p>Mensaje: <input type="text" name="mensaje"></p>
+		<p><input type="submit" value="Enviar"/></p>
+	</form>
+
+<!--F O R M U L A R I O  II-->	
+	
+	<form>
+		<fieldset>
+			<div>
+				<label class="textInformation">Nombre 2</label>
+				<input class="boxInput" type="text" name="nombre2">	
+			</div>
+			<div>
+				<label class="textInformation">Edad</label>
+				<input class="boxInput" type="text" name="edad">
+			</div>
+			<div>
+				<input type="submit" value="Validad">
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>
