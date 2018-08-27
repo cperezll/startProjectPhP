@@ -7,8 +7,9 @@
 </head>
 <body>
 
-<!--F O R M U L A R I O  I-->
-	<form action="procesar.php" method="post"> 
+
+<!--F O R M U L A R I O  I-->	
+	<form name="formI" method="post" action="procesarI.php"> 
 		<p>Nombre: <input type="text" name="nombre"></p>
 		<p>Asunto: <input type="text" name="asunto"></p>
 		<p>Mensaje: <input type="text" name="mensaje"></p>
@@ -17,20 +18,50 @@
 
 <!--F O R M U L A R I O  II-->	
 	
-	<form>
+	<form name="formII" method="" action="procesarII.php">
 		<fieldset>
-			<div>
+			<div class="<? echo claseNombre; ?>" >
 				<label class="textInformation">Nombre 2</label>
-				<input class="boxInput" type="text" name="nombre2">	
+				<input class="boxInput" type="text" name ="nombre2" value="<? echo $nombre2; ?>">
+				<span class="msg"><? echo $msgNombre; ?></span>	
 			</div>
-			<div>
+			<div class="<?echo claseEdad;?>">
 				<label class="textInformation">Edad</label>
-				<input class="boxInput" type="text" name="edad">
+				<input class="boxInput" type="text" name="edad" value="<? echo $edad; ?>">
+				<span class="msg"><? echo $msgEdad; ?></span>
+			</div>
+			<div class="<?echo claseMensaje;?>">
+				<label class="textInformation">Mensaje</label>
+				<input class="boxInput" type="text" name="mensaje" value="<? echo $mensaje; ?>">
+				<span class="msg"><? echo $msgMensaje; ?></span>
 			</div>
 			<div>
 				<input type="submit" value="Validad">
 			</div>
 		</fieldset>
 	</form>
+
+	<!--F O R M U L A R I O  III-->
+
+		<form name="formIII" method="post" action="formularioMYSQL.php">
+		<fieldset>
+			<div class="" >
+				<label class="textInformation">Nombre</label>
+				<input class="boxInput" type="text" name ="nombre3" value="">
+			</div>
+			<div class="">
+				<label class="textInformation">Edad</label>
+				<input class="boxInput" type="text" name="edad3" value="">
+			</div>
+			<div class="">
+				<label class="textInformation">Mensaje</label>
+				<input class="boxInput" type="text" name="mensaje3" value="">
+			</div>
+			<div>
+				<input type="submit" value="Validad">
+			</div>
+		</fieldset>
+	</form>
+
 </body>
 </html>
